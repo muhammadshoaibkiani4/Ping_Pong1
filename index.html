@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ping Pong Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="title">🏓 Ping Pong – First to 10 Wins 🎯</h1>
+
+  <!-- Game canvas -->
+  <canvas id="gameCanvas" width="800" height="500"></canvas>
+
+  <!-- Scoreboard -->
+  <div class="scoreboard">
+    <span id="score1">Player 1 (🔴): 0</span>
+    <span id="score2">Player 2 (🔵): 0</span>
+  </div>
+
+  <!-- Winner message -->
+  <div id="winnerMessage" class="hidden"></div>
+
+  <!-- Fireworks container -->
+  <canvas id="fireworksCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
